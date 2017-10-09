@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "TestExpoKitBuddyBuild",
+    "description": "An empty new project",
+    "slug": "TestExpoKitBuddyBuild",
+    "privacy": "public",
+    "sdkVersion": "21.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icons/app-icon.png",
+    "loading": {
+      "icon": "./assets/icons/loading-icon.png"
+    },
+    "android": {
+      "package": "io.expo.buddybuildexample"
+    },
+    "packagerOpts": {
+      "assetExts": [
+        "ttf",
+        "mp4"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "io.expo.buddybuildexample",
+      "supportsTablet": true,
+      "publishBundlePath": "ios/testexpokitbuddybuild/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/testexpokitbuddybuild/Supporting/shell-app-manifest.json"
+    },
+    "isDetached": true,
+    "detach": {
+      "scheme": "expc9858f22aaeb4551a750d978e87916e1",
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v1.20.5-sdk21.0.0-11e2eb3f-807e-48d4-8685-b0694f874637.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v1.20.0-sdk21.0.0-43fd9293-cb77-4916-a265-5f71e524e681.tar.gz"
+    }
+  }
+}

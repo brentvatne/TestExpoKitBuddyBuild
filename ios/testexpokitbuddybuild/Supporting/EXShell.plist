@@ -7,6 +7,6 @@
 	<key>isShell</key>
 	<true/>
 	<key>manifestUrl</key>
-	<string>exp://exp.host/@notbrent/TestExpoKitBuddyBuild</string>
+	<string>exp://exp.host/@notbrent-testing/TestExpoKitBuddyBuild</string>
 </dict>
 </plist>

@@ -15,7 +15,7 @@ public class MainActivity extends ExponentActivity {
 
   @Override
   public String publishedUrl() {
-    return "exp://exp.host/@notbrent-testing/TestExpoKitBuddyBuild";
+    return "exp://exp.host/@notbrent-tester/TestExpoKitBuddyBuild";
   }
 
   @Override

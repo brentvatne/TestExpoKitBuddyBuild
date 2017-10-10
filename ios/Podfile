@@ -57,6 +57,11 @@ target 'testexpokitbuddybuild' do
       end
     end
 
+    if target.pod_name == 'AppAuth'
+      target.native_target.build_configurations.each do |config|
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '9.0'
+      end
+    end
 
     # Build React Native with RCT_DEV enabled
     next unless target.pod_name == 'React'
